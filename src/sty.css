@@ -1,41 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
 html, body {
     height: 100%;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: lightcyan;
+    background-color: white;
     display: grid;
 }
 
-.header {
-    position :fixed;
-    background-color: cadetblue;
+header {
+    position: fixed;
+    background-color: #618685;
     width: 100vw;
-    overflow:hidden;
-    box-shadow: aliceblue 10px 10px 6px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
 }
-.nav{
+
+.logo {
+    width: 6.5rem;
+    height: 6.5rem;
+    cursor: pointer;
+
+
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.nav-links {
     display: flex;
     font-weight: bold;
     font-size: xx-large;
+    text-decoration: none;
+    list-style: none;
 }
 
-.main {
+.nav-links li {
+    padding: 0 40px;
+    color: white;
 
 }
+
+.nav-links li a:hover {
+    color: cadetblue;
+
+}
+
 
 .footer {
-
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color: cadetblue;
 
 }
-.copyright{
+
+.copyright {
     color: white;
     padding-top: -20px;
 }
