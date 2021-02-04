@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightcyan;
+    display: grid;
+}
+
+.header {
+    position :fixed;
+    background-color: cadetblue;
+    width: 100vw;
+    overflow:hidden;
+    box-shadow: aliceblue 10px 10px 6px ;
+}
+.nav{
+    display: flex;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.main {
+
+}
+
+.footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+
+}
+.copyright{
+    color: white;
+    padding-top: -20px;
+}
