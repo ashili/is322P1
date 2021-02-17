@@ -6,34 +6,52 @@
     <link rel="icon"
           type="image/png/ico"
           href="../images/Mobile%20Phone%20icon.ico">
-    <link rel="stylesheet" href="sty.css">
+
+    <link rel="stylesheet" href="style/style.css">
+    <script defer type="module" src="app.js"></script>
     <script defer type="module" src="landing.js"></script>
 </head>
 <body>
 <div class="container">
     <header class="header">
         <img class="logo" src="../images/Mobile%20Phone%20icon.ico" alt="">
-        <nav >
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </header>
+
+
     <main>
-        <section class="glass">
-            <div class="card">card</div>
-        </section>
-        <aside class="carousel">
-            <h2>Top Sellers</h2>
-        </aside>
+        <div class="top">
+            <aside>aside</aside>
+            <div class="carousel"><h1>Top Sellers</h1></div>
+        </div>
+
+        <div class="cards">cards</div>
     </main>
 
 
+    <footer class="footer">
+        <p class="copyright">&copy The Fone Shop</p>
+        <address class="vcard">
+  <span class="adr">
+    <span class="street-address">123 Main Avenue</span>
+    <span class="locality">Brooklyn</span>,
+    <abbr class="region" title="California">CA</abbr>&nbsp;
+    <span class="postal-code">99301</span>
+    <span class="country-name">USA</span>
+  </span>
+        </address>
+    </footer>
 </div>
-<footer class="footer"><p class="copyright">&copy Anis Shili 2021</p></footer>
-
 </body>
 </html>
