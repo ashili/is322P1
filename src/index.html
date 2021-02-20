@@ -5,16 +5,15 @@
     <title>Phone Shop</title>
     <link rel="icon"
           type="image/png/ico"
-          href="../images/Mobile%20Phone%20icon.ico">
-
+          href="images/Mobile%20Phone%20icon.ico">
     <link rel="stylesheet" href="style/style.css">
-    <script defer type="module" src="app.js"></script>
     <script defer type="module" src="landing.js"></script>
+    <script defer type="module" src="app.js"></script>
 </head>
 <body>
 <div class="container">
     <header class="header">
-        <img class="logo" src="../images/Mobile%20Phone%20icon.ico" alt="">
+        <h2 class="logo">THE FONE</h2>
 
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
@@ -32,24 +31,52 @@
 
     <main>
         <div class="top">
-            <aside>aside</aside>
-            <div class="carousel"><h1>Top Sellers</h1></div>
-        </div>
+            <aside>
+                <div class="filter-wrapper">
 
-        <div class="cards">cards</div>
+                    <div class="form-group">
+                        <label for="orderBy">Order By</label>
+                        <select id="orderBy" name="orderBy">
+                            <option value="price">Price</option>
+                            <option value="model">Model</option>
+                            <option value="brand">Brand</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="os">Operating System</label>
+                        <select id="os" name="os">
+                            <option value="ios">IOS</option>
+                            <option value="android">Android</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+            </aside>
+
+            <div id="slider">
+                <figure>
+                    <img src="./images/s10.png" alt="Samsung S10">
+                    <img src="./images/ise.png" alt="">
+                    <img src="./images/i11.png" alt="">
+                    <img src="./images/ixr.png" alt="">
+                    <img src="./images/i12.png" alt="">
+                </figure>
+            </div>
+        </div>
+        <div class="cards"></div>
     </main>
 
 
     <footer class="footer">
         <p class="copyright">&copy The Fone Shop</p>
-        <address class="vcard">
-  <span class="adr">
-    <span class="street-address">123 Main Avenue</span>
-    <span class="locality">Brooklyn</span>,
-    <abbr class="region" title="California">CA</abbr>&nbsp;
-    <span class="postal-code">99301</span>
-    <span class="country-name">USA</span>
-  </span>
+        <address>
+            <span>123 Main Avenue</span>
+            <span>Brooklyn, CA</span>
+            <span>99301</span>
+            <span>USA</span>
         </address>
     </footer>
 </div>

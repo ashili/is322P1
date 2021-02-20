@@ -1,33 +1,50 @@
 [{
+    "id": 1,
     "model": "iphone 12",
-    "image": "",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    "image": "./images/i12.png",
+    "description": "Lorem ipsum dolor sit Ut enim ad amco labori ex ea. ",
+    "price": 1099
 }, {
-"model": "iphone 11",
-"image": "",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    "id": 2,
+    "model": "iphone 11",
+    "image": "./images/i11.png",
+    "description": "Lorem ipsum dolor sit amet, consecte Ut enim ad .",
+    "price": 1099
 }, {
-"model": "iphone XR",
-"image": "",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    "id": 3,
+    "model": "iphone XR",
+    "image": "./images/ixr.png",
+    "description": "Lorem ipsum dolor sit  quis nostrud exercit ex ea. ",
+    "price": 1099
 }, {
-"model": "iphone SE",
-"image": "",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    "id": 4,
+    "model": "iphone SE",
+    "image": "./images/ise.png",
+    "description": "Lorem ipsum Ut enim ad minim vboris nisi ut aliquip ex ea. ",
+    "price": 1099
 }, {
-"model": "Samsung S21",
-"image": "",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    "id": 5,
+    "model": "S21",
+    "image": "./images/s21.png",
+    "description": "Lorem ipsum dolor sit ut aliquip ex ea commodo. ",
+
+    "price": 1099
 }, {
-"model": "Samsung S20",
-"image": "",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    "id": 6,
+    "model": "S20",
+    "image": "./images/s20.png",
+    "description": "Lorem ipslamco laboris ex ea commodo. ",
+    "price": 1099
 }, {
-"model": "Samsung S10",
-"image": "",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    "id": 7,
+    "model": "S10",
+    "image": "./images/s10.png",
+    "description": "Lorem Ut  nisi ex ea commodo gdfr commodo . ",
+    "price": 1099
 }, {
-"model": "Samsung Note 10",
-"image": "",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-} ]
+    "id": 8,
+    "model": "Note 10",
+    "image": "./images/i12.png",
+    "description": "Lorem ipsmet. Ut enim ad minim, qui commodo. ",
+    "price": 1099
+}]
