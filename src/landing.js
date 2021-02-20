@@ -11,7 +11,7 @@ const phones =
         "brand":"apple"
     }, {
         "id": 5,
-        "model": "Samsung S21",
+        "model": "S21",
         "image": "./images/s21.png",
         "description": "Lorem ipsum dolor sit ut aliquip ex ea commodo. ",
         "price": 999,
@@ -43,7 +43,7 @@ const phones =
         "brand":"apple"
     },  {
         "id": 6,
-        "model": "Samsung S20",
+        "model": "S20",
         "image": "./images/s20.png",
         "description": "Lorem ipslamco laboris ex ea commodo. ",
         "price": 799,
@@ -51,7 +51,7 @@ const phones =
         "brand":"samsung"
     }, {
         "id": 7,
-        "model": "Samsung S10",
+        "model": "S10",
         "image": "./images/s10.png",
         "description": "Lorem Ut  nisi ex ea commodo gdfr commodo . ",
         "price": 649,
